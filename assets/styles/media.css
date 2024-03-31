@@ -118,6 +118,24 @@
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
+    .carousel-inner > .carousel-item {
+        height: auto!important;
+    }
+
+    .upcomingEventsPara p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .upcomingEvents {
+        padding-top: 0;
+    }
+
+    .upcomingEventsHeading h2 {
+        font-size: 26px;
+    }
+
     .mainHeadingOne {
         font-size: 15px;
     }
@@ -128,5 +146,22 @@
     
     .mainHeadingThree { 
         font-size: 43px;
+    }
+
+    .burgerGridImageOne h3 {
+        font-size: 17px;
+        letter-spacing: 0;
+        margin-bottom: 0;
+    }
+
+    .burgerGridImageOne h2 {
+        font-size: 21px;
+        margin-bottom: 0;
+        letter-spacing: 0;
+    }
+
+    .burgerGridImageTwo h2, .burgerGridImageTwo h3, .burgerGridImageThree h2, .burgerGridImageThree h3 {
+        font-size: 17px;
+        line-height: 10px;
     }
 }

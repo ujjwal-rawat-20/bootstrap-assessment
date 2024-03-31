@@ -101,10 +101,7 @@
                         </div>
                     </div>
                     <div class="col burgerDrinkImage">
-                            <!-- <div>
-                                <h4>Buy Now</h4>
-                            </div> -->
-                            <div>
+                            <div class="overflow-hidden">
                                 <img class="mainMeal" src="./assets/images/burger-main.png" alt="burgerImage">
                                 <div class="innerPriceTag">
                                     <div class="priceTagOne">
@@ -121,7 +118,10 @@
             <div class="burgerGridRow row py-5 px-5">
                 <div class="col">
                         <div class="row">
-                            <div class="col burgerGridImageOne position-relative me-2">
+                            <div class="col burgerGridImageOne position-relative me-2 overflow-hidden">
+                                <div class="overlay d-flex justify-content-center align-items-center">
+                                    <h1 class="fw-bold">ORDER NOW</h1>
+                                </div>
                                 <img class="w-100 h-100" src="./assets/images/burger_image_3.png" alt="" srcset="">
                                 <div class="burgerGridImageOneText position-absolute top-0 left-0">
                                     <div>
@@ -133,7 +133,10 @@
                                 </div>
                             </div>
                             <div class="col p-0 d-flex flex-column justify-content-between ms-3">
-                                <div class="row burgerGridImageTwo position-relative">
+                                <div class="row burgerGridImageTwo position-relative overflow-hidden">
+                                <div class="overlay d-flex justify-content-end align-items-center">
+                                    <h1 class="fw-bold">ORDER NOW</h1>
+                                </div>
                                     <img class="w-100 h-100" src="./assets/images/image_3.png" alt="" srcset="">
                                     <div class="burgerGridImageTwoText position-absolute top-0 left-0">
                                         <div>
@@ -143,7 +146,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row burgerGridImageThree position-relative">
+                                <div class="row burgerGridImageThree position-relative overflow-hidden">
+                                    <div class="overlay d-flex justify-content-end align-items-center">
+                                        <h1 class="fw-bold">ORDER NOW</h1>
+                                    </div>
                                         <img class="w-100 h-100" src="./assets/images/image_2.png" alt="" srcset="">
                                         <div class="burgerGridImageThreeText position-absolute top-0 left-0">
                                             <div>
@@ -177,57 +183,90 @@
             <div class="threeBurgersContainer container-fluid">
                 <div class="col d-flex flex-md-row flex-column justify-content-around py-md-5">
                     <div class="card border-0">
-                        <div class="text-center">
-                            <img class="m-auto" src="./assets/images/burger_2.png" class="card-img-top" alt="...">
-                        </div>
-                        <div class="card-body">
-                          <h5 class="card-title text-center">Card title</h5>
-                            <div class="text-center py-3">
-                                <p class="card-text text-center">Some quick example text to build on
-                                    the card title and make.</p>
+                        <div class="innerCard">
+                            <div class="fontCard">
+                                <div class="text-center">
+                                    <img class="m-auto" src="./assets/images/burger_2.png" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                  <h5 class="card-title text-center">Card title</h5>
+                                    <div class="text-center py-3">
+                                        <p class="card-text text-center">Some quick example text to build on
+                                            the card title and make.</p>
+                                    </div>
+                                     <div class="text-center">
+                                        <button href="#" class="text-center orderNowButton">ORDER NOW</button>
+                                     </div>
+                                </div>
                             </div>
-                             <div class="text-center">
-                                <button href="#" class="text-center orderNowButton">ORDER NOW</button>
-                             </div>
-                        </div>
-                    </div>
-                    <div class="card border-0">
-                        <div class="text-center">
-                            <img class="m-auto" src="./assets/images/Burger Image.png" class="card-img-top" alt="...">
-                        </div>
-                        <div class="card-body">
-                          <h5 class="card-title text-center">Card title</h5>
-                            <div class="text-center py-3">
-                                <p class="card-text text-center">Some quick example text to build on the
-                                    card title and make.
-                                </p>
+                            <div class="backCard d-flex flex-column justify-content-center align-items-center">
+                                <h3 class="fw-bold">BUY NOW</h3>
+                                <h3>At</h3>
+                                <h1 class="fw-bold">$ 4.99</h1>
+                                <button>ADD TO CART</button>
                             </div>
-                          <div class="text-center">
-                            <button href="#" class="text-center orderNowButton">ORDER NOW</button>
-                          </div>
                         </div>
                     </div>
+                   
+
                     <div class="card border-0">
-                        <div class="text-center">
-                            <img class="m-auto" src="./assets/images/burger_3.png" class="card-img-top" alt="...">
-                        </div>
-                        <div class="card-body">
-                          <h5 class="card-title text-center">Card title</h5>
-                          <div class="text-center py-3">
-                            <p class="card-text text-center">Some quick example text to build on the
-                                card title and make.</p>
-                          </div>
-                          <div class="text-center">
-                            <button class="text-center orderNowButton">ORDER NOW</button>
-                        </div>
+                        <div class="innerCard">
+                            <div class="fontCard">
+                                <div class="text-center">
+                                    <img class="m-auto" src="./assets/images/Burger Image.png" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                  <h5 class="card-title text-center">Card title</h5>
+                                    <div class="text-center py-3">
+                                        <p class="card-text text-center">Some quick example text to build on
+                                            the card title and make.</p>
+                                    </div>
+                                     <div class="text-center">
+                                        <button href="#" class="text-center orderNowButton">ORDER NOW</button>
+                                     </div>
+                                </div>
+                            </div>
+                            <div class="backCard d-flex flex-column justify-content-center align-items-center">
+                                <h3 class="fw-bold">BUY NOW</h3>
+                                <h3>At</h3>
+                                <h1 class="fw-bold">$ 8.99</h1>
+                                <button>ADD TO CART</button>
+                            </div>
                         </div>
                     </div>
+
+                    <div class="card border-0">
+                        <div class="innerCard">
+                            <div class="fontCard">
+                                <div class="text-center">
+                                    <img class="m-auto" src="./assets/images/burger_3.png" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                  <h5 class="card-title text-center">Card title</h5>
+                                    <div class="text-center py-3">
+                                        <p class="card-text text-center">Some quick example text to build on
+                                            the card title and make.</p>
+                                    </div>
+                                     <div class="text-center">
+                                        <button href="#" class="text-center orderNowButton">ORDER NOW</button>
+                                     </div>
+                                </div>
+                            </div>
+                            <div class="backCard d-flex flex-column justify-content-center align-items-center">
+                                <h3 class="fw-bold">BUY NOW</h3>
+                                <h3>At</h3>
+                                <h1 class="fw-bold">$ 10.99</h1>
+                                <button>ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>  
             
             <div class="upcomingEventsContainer container-fluid">
-                <div class="row d-flex flex-md-row flex-column upcomingEventsInnerContainer">
-                    <div class="upcomingEvents col ps-md-5 pt-md-5 order-md-1 order-2">
+                <div class="row d-flex flex-md-row align-items-center flex-column upcomingEventsInnerContainer">
+                    <div class="upcomingEvents col ps-md-5 order-md-1 order-2">
                         <div  class="upcomingEventsHeading py-3 py-md-0">
                             <h3>DISCOVER</h3>
                             <h2>UPCOMING EVENTS</h2>
@@ -249,9 +288,9 @@
                               <div class="h-100 carousel-item active data-bs-interval="10000">
                                 <img src="./assets/images/burger_image.jpg" class="d-block w-100" alt="...">
                               </div>
-                              <div class="h-100 carousel-item data-bs-interval="10000">
-                                <img src="./assets/images/burger-7.webp" class="d-block w-100 h-100" alt="...">
-                              </div>
+                              <!-- <div class="h-100 carousel-item data-bs-interval="10000">
+                                <img src="./assets/images/burger-slide-2.png" class="d-block w-100 h-100" alt="...">
+                              </div> -->
                               <div class="carousel-item data-bs-interval="10000">
                                 <img src="./assets/images/burger-8.jpg" class="d-block w-100" alt="...">
                               </div>
