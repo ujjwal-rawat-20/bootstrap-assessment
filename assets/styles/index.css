@@ -96,7 +96,7 @@
     perspective: 1000px;
     transition: transform 0.8s;
     transform-style: preserve-3d;
-    animation: mymove 4s infinite;
+    /* animation: mymove 4s infinite; */
 }
 
 /* .mainMeal:hover + .innerPriceTag {
@@ -162,9 +162,9 @@
     padding: 0% 7%;
 }
 
-/* .chooseAndEnjoyRow p {
-    padding-bottom: 0 !important;
-} */
+.chooseAndEnjoyRow p {
+    word-break: break-all;
+}
 
 .chooseAndEnjoyRow button {
     background-color: #ffc045;

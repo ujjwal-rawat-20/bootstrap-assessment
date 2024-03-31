@@ -1,3 +1,109 @@
+@media screen and (max-width: 700px) {
+    .mainHeadingTwo {
+        font-size: 67px;
+    }
+
+    .mainHeadingThree {
+        font-size: 50px;
+    }
+
+    .burgerGridImageOneText {
+        transform: translate(8%, 72%);
+    }
+
+    .burgerGridImageOne h3 {
+        font-size: 8px;
+        letter-spacing: 0px;
+        line-height: 0px;
+    }
+
+    .burgerGridImageOne h2 {
+        font-size: 9px;
+        line-height: 0px;
+        letter-spacing: 0px;
+    }
+
+    .burgerGridImageTwo h3, .burgerGridImageThree h3 {
+        font-size: 9px;
+        line-height: 4px;
+    }
+
+    .burgerGridImageTwo h2, .burgerGridImageThree h2 {
+        font-size: 10px;
+        line-height: 0px;
+    }
+
+    .chooseAndEnjoyRow h2 {
+        font-size: 30px;
+    }
+
+    .upcomingEventsHeading h2 {
+        font-size: 26px;
+    }
+
+    .upcomingEventsInnerContainer {
+        padding: 5% 7%;
+    }
+
+    .upcomingEventsPara p {
+        width: 100%;
+        text-align: justify;
+        word-break: break-all;
+    }
+
+    .carousel-inner > .carousel-item {
+        height: 195px !important;
+    }
+
+    .reservationText h3 {
+        font-size: 16px;
+        line-height: 0px;
+    }
+
+    .reservationText h1 {
+        font-size: 28px;
+    }
+
+    .burgerImageContainer img {
+        width: 30% !important;
+    }
+
+    .revervationTextContainer {
+        padding-top: 25%;
+    }
+
+    .reservationContainer .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .plateImageContainer img { display: none; } 
+
+    .reservationContainer .reservationForm .reservationButton {
+        font-size: 15px;
+        font-weight: 100;
+        line-height: 25px;
+        height: 100%;
+    }
+
+    .bottleImageContainer img {
+        transform: translate(-67px, 73px);
+    }
+
+    .footerParaContainer p {
+        width: 100% !important;
+    }
+
+    .footerContainer {
+        margin-top: 12%;
+    }
+
+    .aboveFooterRow {
+        padding: 10%;
+    }
+}
+
+
 @media (min-width: 768px) and (max-width: 1024px) {
     .mainHeadingOne {
         font-size: 15px;
@@ -7,7 +113,7 @@
         font-size: 55px;
     }
     
-    .mainHeadingThree{
+    .mainHeadingThree { 
         font-size: 43px;
     }
 }
