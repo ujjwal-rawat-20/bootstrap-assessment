@@ -5,6 +5,10 @@
     font-family: "Montserrat", sans-serif;
 }
 
+.mobileLinks {
+    display: none!important;
+}
+
 .headContainer {
     background-image: url(../images/main-bckgrd.png);
     background-repeat: no-repeat;
@@ -96,7 +100,7 @@
     perspective: 1000px;
     transition: transform 0.8s;
     transform-style: preserve-3d;
-    /* animation: mymove 4s infinite; */
+    animation: mymove 4s infinite;
 }
 
 /* .mainMeal:hover + .innerPriceTag {

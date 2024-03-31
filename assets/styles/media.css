@@ -1,4 +1,17 @@
 @media screen and (max-width: 700px) {
+
+    .laptopLinks {
+        display: none !important;
+    }
+
+    .mobileLinks {
+        display: block !important;
+    }
+
+    .myNavBarTwo {
+        display: none !important;
+    }
+
     .mainHeadingTwo {
         font-size: 67px;
     }
@@ -52,7 +65,7 @@
     }
 
     .carousel-inner > .carousel-item {
-        height: 195px !important;
+        height: 188px !important;
     }
 
     .reservationText h3 {
