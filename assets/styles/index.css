@@ -100,7 +100,7 @@
     filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
 }
 
-.mainHeadingThree{
+.mainHeadingThree {
     font-size: 56px;
     line-height: 62px;
     text-transform: uppercase;
@@ -117,13 +117,6 @@
     transform-style: preserve-3d;
     animation: mymove 4s infinite;
 }
-
-/* .mainMeal:hover + .innerPriceTag {
-    perspective: 1000px;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-    transform: rotateY(180deg);
-} */
 
 .mainPageOverlay {
     position: absolute;
@@ -162,7 +155,6 @@
     color: #ffffff;
     font-weight: 700;
     font-family: "Bebas Neue";
-    letter-spacing: 2px;
     font-weight: 300;
 }
 
@@ -173,8 +165,8 @@
 
 .burgerGridImageTwo h3, .burgerGridImageTwo h2,
 .burgerGridImageThree h3, .burgerGridImageThree h2 {
-    font-size: 38px;
-    line-height: 24px;
+    font-size: 35px;
+    line-height: 21px;
     text-transform: uppercase;
     color: #ffffff;
     font-weight: 400;
@@ -185,6 +177,10 @@
 .burgerGridImageThree h3 {
     font-weight: 300;
     font-size: 15px;
+}
+
+.burgerGridImageTwo h2 {
+    line-height: 24px;
 }
 
 .burgerGridImageOneText {
@@ -379,7 +375,7 @@
 }
 
 .bottleImageContainer img {
-    transform: translate(57px, 73px);
+    transform: translate(57px, 30%)
 }
 
 .plateImageContainer {

@@ -24,7 +24,8 @@
 
 </head>
 <body>
-    <div class="container-fluid headContainer px-4">
+    <!-- Main head container -->
+    <div class="container-fluid headContainer px-4">  
         <nav class="myNavBar navbar navbar-expand-lg">
             <div class="container-fluid">
               <a class="navbar-brand d-flex align-items-center" href="#">
@@ -36,6 +37,7 @@
               </button>
 
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- mobile view nav links -->
                 <ul class="mobileLinks links w-100 navbar-nav me-auto mb-2 mb-md-0 d-flex flex-row justify-content-end align-items-center">
                     <li class="nav-item">
                       <a class="nav-link active" aria-current="page" href="#">HOME</a>
@@ -51,6 +53,7 @@
                     </li>
                   </ul>
 
+                  <!-- desktop view nav links -->
                 <ul class="laptopLinks links w-100 navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-end align-items-center">
                   <li class="nav-item">
                         <img class="deliveryBike" src="./assets/images/deliveryBike.png" />
@@ -66,6 +69,7 @@
             </div>
           </nav>
 
+          <!-- Second navbar -->
           <nav class="myNavBarTwo navbar navbar-expand-lg">
             <div class="container-fluid">
                 <ul class="links w-100 navbar-nav me-auto mb-2 mb-md-0 d-flex flex-row justify-content-end align-items-center">
@@ -85,6 +89,7 @@
             </div>
           </nav>
 
+          <!-- main page block -->
            <div class="mainPageContainer container-fluid pt-5 pb-5">
                 <div class="row d-flex flex-column flex-md-row pb-5">
                     <div class="col d-flex align-items-center">
@@ -114,6 +119,7 @@
            </div>
     </div>
 
+    <!-- Burger grid container -->
     <div class="container-fluid burgerGrid">
             <div class="burgerGridRow row py-5 px-5">
                 <div class="col">
@@ -132,7 +138,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col p-0 d-flex flex-column justify-content-between ms-3">
+                            <div class="burgerImageColTwo col p-0 d-flex flex-column justify-content-between ms-3">
                                 <div class="row burgerGridImageTwo position-relative overflow-hidden">
                                 <div class="overlay d-flex justify-content-end align-items-center">
                                     <h1 class="fw-bold">ORDER NOW</h1>
@@ -164,7 +170,7 @@
                 </div>
             </div>
 
-
+            <!-- Choose and enjoy container -->
             <div class="chooseAndEnjoyContainer container-fluid">
                 <div class="chooseAndEnjoyRow col">
                     <div class="text-center pb-3">
@@ -180,8 +186,10 @@
                 </div>
             </div>
 
+            <!-- Three burger cards container -->
             <div class="threeBurgersContainer container-fluid">
                 <div class="col d-flex flex-md-row flex-column justify-content-around py-md-5">
+                    <!-- Card 1 -->
                     <div class="card border-0">
                         <div class="innerCard">
                             <div class="fontCard">
@@ -208,7 +216,7 @@
                         </div>
                     </div>
                    
-
+                    <!-- Card 2 -->
                     <div class="card border-0">
                         <div class="innerCard">
                             <div class="fontCard">
@@ -235,6 +243,7 @@
                         </div>
                     </div>
 
+                    <!-- Card 3 -->
                     <div class="card border-0">
                         <div class="innerCard">
                             <div class="fontCard">
@@ -263,7 +272,8 @@
                     
                 </div>
             </div>  
-            
+
+            <!-- Upcoming evening container -->
             <div class="upcomingEventsContainer container-fluid">
                 <div class="row d-flex flex-md-row align-items-center flex-column upcomingEventsInnerContainer">
                     <div class="upcomingEvents col ps-md-5 order-md-1 order-2">
@@ -288,9 +298,6 @@
                               <div class="h-100 carousel-item active data-bs-interval="10000">
                                 <img src="./assets/images/burger_image.jpg" class="d-block w-100" alt="...">
                               </div>
-                              <!-- <div class="h-100 carousel-item data-bs-interval="10000">
-                                <img src="./assets/images/burger-slide-2.png" class="d-block w-100 h-100" alt="...">
-                              </div> -->
                               <div class="carousel-item data-bs-interval="10000">
                                 <img src="./assets/images/burger-8.jpg" class="d-block w-100" alt="...">
                               </div>
@@ -300,6 +307,7 @@
                 </div>
             </div>
 
+            <!-- Reservation container -->
             <div class="reservationContainer container-fluid">
                 <div class="row">
                         <div class="col-md-3 burgerImageContainer position-relative">
@@ -360,11 +368,12 @@
 
             <div class="container-fluid aboveFooterRow"></div>
 
+            <!-- Footer container -->
             <div class="footer container-fluid px-md-5">
                 <div class="footerContainer text-light px-md-5 pt-5 pb-3 px-2">
                     <div class="row">
                         <div class="col">
-                            <img class="w-50" src="./assets/images/footer-burger-logo.png" alt="burger logo">
+                            <img class="footerLogo w-50" src="./assets/images/footer-burger-logo.png" alt="burger logo">
                         </div>
                         <div class="col"></div>
                     </div>
@@ -377,7 +386,6 @@
                             </p>
                         </div>
                         <div class="col-md-3"></div>
-                        <!-- col-md-3 d-flex justify-content-center justify-content-md-end align-items-center -->
                         <div class="pt-4 pt-md-0 col-md-4 d-flex flex-column justify-content-end">
                             <div class="row">
                                 <div class="col location d-flex align-items-center">
