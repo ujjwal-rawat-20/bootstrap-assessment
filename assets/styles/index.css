@@ -35,6 +35,22 @@
     padding-top: 0;
 }
 
+.myNavBarTwo ul li a {
+    font-size: 21px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 500;
+    font-family: "Bebas Neue";
+}
+
+.myNavBarTwo ul li a:hover,
+.myNavBar ul li a:hover {
+    cursor: pointer;
+    scale: 1.1;
+    transition: all 0.5s ease-in-out;
+}
+
 .myNavBarTwo .links .nav-item{
     margin-left: 20px;
     font-size: 16px;
@@ -52,10 +68,9 @@
     width: 87%;
 }
 
-/* .innerPriceTag .priceTagOne, 
-.innerPriceTag .priceTagTwo {
-    backface-visibility: hidden;
-} */
+.mainPageBlockOne {
+    padding-bottom: 15%;
+}
 
 .burgerDrinkImage .priceImg {
     width: 21%;
@@ -478,6 +493,20 @@
     right: 0%;
     transition: all 0.5s ease-in-out;
     cursor: pointer;
+}
+
+.plateImageContainer:hover {
+    animation: movePlate 1s ease-in-out;
+    cursor: pointer;
+}
+
+@keyframes movePlate {
+    0% {
+        top: 0px;
+    }
+    100% {
+        top: -150px;
+    }
 }
 
 @keyframes rotation {

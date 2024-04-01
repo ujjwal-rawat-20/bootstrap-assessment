@@ -114,6 +114,10 @@
     .aboveFooterRow {
         padding: 10%;
     }
+
+    .carousel-inner > .carousel-item {
+        height: auto!important;
+    }
 }
 
 
@@ -163,5 +167,14 @@
     .burgerGridImageTwo h2, .burgerGridImageTwo h3, .burgerGridImageThree h2, .burgerGridImageThree h3 {
         font-size: 17px;
         line-height: 10px;
+    }
+
+    .burgerGridImageOne {
+        padding-right: 0; margin-right: 0;
+    }
+
+    .location h3, .email h3 {
+        font-size: 15px;
+        line-height: 24px;
     }
 }
